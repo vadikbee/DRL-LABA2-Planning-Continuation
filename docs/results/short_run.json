@@ -1,0 +1,8 @@
+{
+  "run": "local_short_reproducible",
+  "seed": 2,
+  "taxi_environment": "Taxi-v4",
+  "mcts": {"episodes": 40, "simulations": 5, "depth": 5, "duration_s": 34.263, "evaluation_reward": -469.55, "success_rate_pct": 0.0},
+  "q_learning": {"episodes": 80, "duration_s": 4.65, "evaluation_reward": -200.0, "success_rate_pct": 0.0},
+  "td_lambda_backward": {"runs": 3, "episodes": 5, "lambdas": {"0.0": [0.5242, 0.4861], "0.8": [0.457, 0.3335]}}
+}
